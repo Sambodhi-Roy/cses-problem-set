@@ -1,4 +1,4 @@
-# 📘 CSES Problem Set — Progressive Journey
+# 📘 CSES Problem Set — My Progressive Journey
 
 Welcome to the **cses-problem-set** repository!  
 This is my personal journey to **solve the entire CSES Problem Set**, one problem at a time. I'm uploading solutions as I go, organized neatly by topic.

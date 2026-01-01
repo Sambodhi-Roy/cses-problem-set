@@ -13,8 +13,19 @@ void solve()
     {
         cin>>x;
     }
+    
+    // unordered_map<int,int> freq;
 
-    unordered_map<int,int> freq;
+    // Coordinate compression
+    vector<int> temp = arr;
+    sort(temp.begin(), temp.end());
+    temp.erase(unique(temp.begin(), temp.end()), temp.end());
+
+    for (int &x : arr)
+        x = lower_bound(temp.begin(), temp.end(), x) - temp.begin();
+
+    vector<int> freq(temp.size(), 0);
+
     ll count = 0;
 
     int l = 0;
